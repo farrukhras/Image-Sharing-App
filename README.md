@@ -32,7 +32,7 @@ Additionally, Socket.IO is utilized to enable real-time communication capabiliti
 
 ## Demo of the Realtime Chat feature
 
-
+[Link to Video](realtime_chat_final.mp4)
 
 ## Contact
 
