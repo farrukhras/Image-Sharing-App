@@ -1,0 +1,37 @@
+.chatUser {
+  display: flex;
+  align-items: center;
+  padding: 10px 10px 10px 20px;
+  cursor: pointer;
+}
+
+.chatUser:hover {
+  background-color: #dedede;
+}
+
+
+
+/* display user image and name side by side */
+.chatUserWrapper {
+  display: flex;
+  align-items: center;
+}
+
+.chatUserImgContainer {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-right: 1rem;
+}
+
+.chatUserImg {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.chatUserName {
+  font-size: 16px;
+  font-weight: 500;
+}

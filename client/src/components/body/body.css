@@ -1,0 +1,18 @@
+.bodyWrapper {
+  display: flex;
+  padding: 20px;
+}
+
+.bodyLeftCenter {
+  /* background-color: red; */
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  flex: 8;
+  margin-right: 20px;
+}
+
+.bodyRight {
+  /* background-color: blue; */
+  flex: 4;
+}

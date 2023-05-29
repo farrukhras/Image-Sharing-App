@@ -1,0 +1,48 @@
+/* create a CSS layout where the image is displayed in the left column
+and the message is displayed in the right column
+the name of the user is displayed above the message
+the date is displayed below the message
+only the message will have a background color
+the name of the user will be small and align with the image
+the date of the message will be small
+*/
+.message {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+.messageTop {
+  display: flex;
+}
+
+.messageImg {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 10px;
+}
+
+.messageText {
+  background-color: blue;
+  padding: 10px;
+  border-radius: 15px;
+  color: white;
+  max-width: 400px;
+}
+
+.messageBottom {
+  font-size: 14px;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.message.personalMessage {
+  align-items: flex-end;
+}
+
+.message.personalMessage .messageText {
+  background-color: rgb(232, 232, 232);
+  color: black;
+}

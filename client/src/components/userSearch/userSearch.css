@@ -1,0 +1,86 @@
+.searchContainer {
+  display: flex;
+  flex-direction: column;
+  /* background-color: green; */
+  /* padding-top: 15px; */
+}
+
+.searchWrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.userSearch {
+  width: 80%;
+  border: none;
+  border-radius: 10px;
+  padding: 10px;
+  font-size: 16px;
+  box-shadow: #000000 0px 0px 2px;
+}
+
+.userSearchButton {
+  border: none;
+  border-radius: 10px;
+  padding: 10px;
+  background-color: rgb(17, 152, 255);;
+  font-weight: 500;
+  cursor: pointer;
+  margin-right: 15px;
+  color: #fff;
+}
+
+.followingsList {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-top: 10px;
+}
+
+.following {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 50px;
+  margin-top: 10px;
+}
+
+.followingImg {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.followingName {
+  margin-left: 10px;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.subHeadingName {
+  margin-left: 10px;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.usersCard {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+  margin-bottom: 25px;
+}
+
+.errorWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.errorMessage {
+  font-size: 18px;
+  font-weight: 500;
+}
