@@ -1,5 +1,9 @@
 # Image Sharing App
 
+## Demo of the Realtime Chat feature
+
+[![Realtime Chat feature](https://ik.imagekit.io/ably/ghost/prod/2023/01/build-a-realtime-chat-app-from-scratch--1-.png?tr=w-1728,q-50)](https://youtu.be/jFa1PBYT6Tg)
+
 ## Description
 
 The project is an image sharing application with login and register functionalities. It allows users to upload and share image posts from their accounts, follow and unfollow other users, and engage in real-time chat with different users.
@@ -29,10 +33,6 @@ Additionally, Socket.IO is utilized to enable real-time communication capabiliti
 5. Run `npm start` in the `socket` folder to start the Socket.IO server.
 6. Run `node index.js` in the `api` folder to start the back-end API server.
 7. Access the application through the provided URL.
-
-## Demo of the Realtime Chat feature
-
-[Link to Video](realtime_chat_final.mp4)
 
 ## Contact
 
